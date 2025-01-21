@@ -5,6 +5,13 @@
 
 #
 # Compiler: Android (6443078 based on r383902) clang version 11.0.1 (https://android.googlesource.com/toolchain/llvm-project b397f81060ce6d701042b782172ed13bee898b79)
+
+#KernelSU
+CONFIG_KPROBES=y
+CONFIG_HAVE_KPROBES=y
+CONFIG_OVERLAY_FS=y
+CONFIG_SECURITYFS=y
+CONFIG_KSUSUPPORT=y
 #
 CONFIG_GCC_VERSION=0
 CONFIG_CC_IS_CLANG=y
